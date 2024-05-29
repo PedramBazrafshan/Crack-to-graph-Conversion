@@ -4,12 +4,9 @@
 
 ### **Overview**
 ---
-This is the official repository of the paper.
-**On the cover:** The cover image is based on the Research Article _A graph-based method for quantifying crack patterns on reinforced concrete shear walls_ by Pedram Bazrafshan et al.,
-https://doi.org/10.1111/mice.13009
-
-
-![Image](https://github.com/users/PedramBazrafshan/projects/1/assets/83833578/90601aad-62f1-45f4-80cc-5f3fe6731041)
+This is the official repository of the Research Article _A graph-based method for quantifying crack patterns on reinforced concrete shear walls_ by Pedram Bazrafshan et al.,
+https://doi.org/10.1111/mice.13009  
+This research article is featured as the cover paper of the Journal of Computer-Aided Civil and Infrastructure Engineering (CACAIE)'s special issue on computational concrete engineering.
 
 
 ### **Get Started**
@@ -38,7 +35,7 @@ https://doi.org/10.1111/mice.13009
 
 ### **Citation**
 ---
-If you find our work useful in your research, please consider citing:
+If you find our work useful in your research, please consider citing:  
 Bazrafshan, P., On, T., Basereh, S., Okumus, P., & Ebrahimkhanlou, A. (2024). A graph‐based method for quantifying crack patterns on reinforced concrete shear walls. Computer‐Aided Civil and Infrastructure Engineering, 39(4), 498-517.
 ```
 @article{bazrafshan2024graph,
