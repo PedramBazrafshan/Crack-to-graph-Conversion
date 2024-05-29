@@ -34,3 +34,21 @@ https://doi.org/10.1111/mice.13009
 ### **Output Sample**
 ---
 ![Image](https://github.com/users/PedramBazrafshan/projects/1/assets/83833578/4253cb9b-7383-493e-86b2-55efe5e7e292)
+
+
+### **Citation**
+---
+If you find our work useful in your research, please consider citing:
+Bazrafshan, P., On, T., Basereh, S., Okumus, P., & Ebrahimkhanlou, A. (2024). A graph‐based method for quantifying crack patterns on reinforced concrete shear walls. Computer‐Aided Civil and Infrastructure Engineering, 39(4), 498-517.
+```
+@article{bazrafshan2024graph,
+  title={A graph-based method for quantifying crack patterns on reinforced concrete shear walls},
+  author={Bazrafshan, Pedram and On, Thinh and Basereh, Sina and Okumus, Pinar and Ebrahimkhanlou, Arvin},
+  journal={Computer-Aided Civil and Infrastructure Engineering},
+  volume={39},
+  number={4},
+  pages={498--517},
+  year={2024},
+  publisher={Wiley Online Library}
+}
+```
