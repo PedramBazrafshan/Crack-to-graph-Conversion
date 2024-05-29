@@ -47,14 +47,10 @@ def crack_to_graph (wall_names):
     for img_name in img_names:
         #################################### Loading The Data Using Matplotlib
         img = cv2.imread(img_name[1:10]+".bmp")[:,:,::-1]
-        fig, ax = plt.subplots()
-        plt.imshow(img, cmap = 'gray')
-        plt.xticks([])
-        plt.yticks([])
-        plt.show()
-        image_format = 'svg' # e.g .png, .svg, etc.
-        image_name = img_name[1:10]+"_Initial.svg"
-        fig.savefig(image_name, format=image_format, dpi=1200)
+        # plt.imshow(img, cmap = 'gray')
+        # plt.xticks([])
+        # plt.yticks([])
+        # plt.show()
         
         #################################### RGB2Gray Using Matplotlib
         img_gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
