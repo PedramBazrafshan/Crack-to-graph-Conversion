@@ -13,14 +13,19 @@ This research article is featured as the cover paper of the Journal of Computer-
 ---
 1. The sketches of the crack patterns are prepared in images with .bmp format. This paper used manual sketched crack patterns.
 
-3. The images of the crack patterns are named with the following format:    The name contains 9 digits: first three digits are for the wall ID, the second three digits are for aspect ratio of the wall (height / width), and the last three digits show the drift at which the crack image was taken.
+2. The images of the crack patterns are named with the following format:    The name contains 9 digits: first three digits are for the wall ID, the second three digits are for aspect ratio of the wall (height / width), and the last three digits show the drift at which the crack image was taken.
     imagename (000000000) = wallID(000) + h/l(0.00 * 100) + drift(0.00% * 100)
 
-4. The names of the images are added to an excel file named "Walls.xlsx"
+3. The names of the images are added to an excel file named "Walls.xlsx"
 
-6. To run the code, the Python file named "main0_all_img.py" should be run.
+4. The file named "requirements.txt" contains all the libraries of an environment in which the algorithm runs. To install the compatible versions of the libraries used, execute:  
+```
+pip install -r requirements.txt
+```
 
-8. The outputs are 1) an image showing the crack pattern with the graph representation overlayed on the crack pattern in a .svg format, 2) A .csv file named "imagename_nodes" which contains the node numbers and their coordinates, 3) A .csv file named "imagename_edges" which contains the edges numbers, the nodes that are connected together, and the length between them, and 4) a .csv file named "imagename_features" which contains the graph features (i.e., the average and weighted average degree of the network, global and local clustering coefficients, eigenvalues, etc.) extracted from the graph representation.
+5. To run the code, the Python file named "main0_all_img.py" should be run.
+
+6. The outputs are 1) an image showing the crack pattern with the graph representation overlayed on the crack pattern in a .svg format, 2) A .csv file named "imagename_nodes" which contains the node numbers and their coordinates, 3) A .csv file named "imagename_edges" which contains the edges numbers, the nodes that are connected together, and the length between them, and 4) a .csv file named "imagename_features" which contains the graph features (i.e., the average and weighted average degree of the network, global and local clustering coefficients, eigenvalues, etc.) extracted from the graph representation.
 
 
 ### **Input Sample**
@@ -54,3 +59,9 @@ Bazrafshan, P., On, T., Basereh, S., Okumus, P., & Ebrahimkhanlou, A. (2024). A 
 ### **License**
 ---
 Licensed under a [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/) for Non-commercial use only. Any commercial use should get formal permission first.
+
+
+### **Inquiries**
+---
+For inquiries, please contact:  
+pb669@drexel.edu
