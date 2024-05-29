@@ -55,7 +55,7 @@ def crack_to_graph (wall_names):
         image_format = 'svg' # e.g .png, .svg, etc.
         image_name = img_name[1:10]+"_Initial.svg"
         fig.savefig(image_name, format=image_format, dpi=1200)
-        dfgbsd
+        
         #################################### RGB2Gray Using Matplotlib
         img_gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
         # plt.imshow(img_gray, cmap = 'gray')
