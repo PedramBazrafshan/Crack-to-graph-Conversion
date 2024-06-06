@@ -55,6 +55,9 @@ Bazrafshan, P., On, T., Basereh, S., Okumus, P., & Ebrahimkhanlou, A. (2024). A 
 }
 ```
 
+### **Developers**
+---
+The core of the files named "CornerConnection.py" and "functions.py" have previously been developed as a course project by Thinh On and later were developed and finalized by Pedram Bazrafshan. The rest of the files have been developed by Pedram Bazrafshan.
 
 ### **License**
 ---
