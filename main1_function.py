@@ -270,7 +270,7 @@ def crack_to_graph (wall_names):
         
         ##### percentage of change in the number of crack pixels due to morphological operations
         change = ((abs(crack_pix_init_orig - len(bl_pix_fin[0]))/crack_pix_init_orig) * 100)
-        print("Crack Pixel Change = %", round(change,1))
+        print(f"Crack Pixel Change = {round(change,1)}%")
         
         #################################### Deep Copy For Final Plot
         img1 = deepcopy(thinned)
@@ -303,7 +303,7 @@ def crack_to_graph (wall_names):
             
             if len_nodes_new == len_nodes_init:
                 break
-        print("Initial graph representation is created!")
+        print("The initial graph representation is created!")
         
         ####################### Removing Single Nodes
         nodes, nodes_dict = single_node_remover (nodes, edges_dict)
@@ -333,7 +333,7 @@ def crack_to_graph (wall_names):
             if len_nodes_new == len_nodes_init or i == 5:
                 break
         print("The archs are matched!")
-        print("The final graph representation of the crack patter is ready!")
+        print("The final graph representation of the crack pattern is ready!")
         ##### draw circles on all nodes
         circle_thickness = max(int(np.floor(min(0.004*img_bin.shape[0], 0.004*img_bin.shape[1]))),3)
         for i in nodes:

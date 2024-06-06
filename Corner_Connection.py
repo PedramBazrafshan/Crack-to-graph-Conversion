@@ -3,7 +3,7 @@
 Python program to create crack graph from crack surface
 using Shi-Tomasi corner detection algorithm
 and pixel tracking algorithm
-by: Pedram Bazrafshan
+by: Thinh On and Pedram Bazrafshan
 """""""""""
 #######################################################
 
